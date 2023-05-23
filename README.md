@@ -7,11 +7,8 @@
 
 ## Installation
 
-Copy `oprc.sh` to your direnv lib directory.
-
 ```bash
-mkdir -p ~/.config/direnv/lib
-cp oprc.sh ~/.config/direnv/lib
+make install
 ```
 
 ## Usage
