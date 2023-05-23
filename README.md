@@ -31,6 +31,7 @@ cat >.oprc <<EOT
 export A_SECRET="op://Vault/Item/credential"
 export ANOTHER_SECRET="op://Vault/Another Item/credential"
 EOT
+```
 
 You can use `op item get "Item Name" --format json` to get the reference for a
 secret.
